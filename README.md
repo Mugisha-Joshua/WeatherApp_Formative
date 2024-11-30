@@ -33,11 +33,11 @@ An interactive and visually appealing weather application that fetches and displ
 ### Steps to Run Locally  
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/your-repo/elegant-weather-app.git  
+   git clone https://github.com/Mugisha-Joshua/WeatherApp_Formative.git 
    ```  
 2. Navigate to the project folder:  
    ```bash  
-   cd elegant-weather-app  
+   cd WeatherApp_Formative
    ```  
 3. Open `index.html` in your browser.  
 
@@ -65,20 +65,19 @@ An interactive and visually appealing weather application that fetches and displ
 ## Deployment Process  
 
 ### Hosting on Web Servers  
-1. Prepare the application files (`HTML`, `CSS`, `JavaScript`) by ensuring they are complete and error-free.  
-2. Upload the files to your web servers (e.g., via SFTP or a deployment pipeline).  
+1. Prepared the application files (`HTML`, `CSS`, `JavaScript`) by ensuring they are complete and error-free.  
+2. Uploaded the files to my WEB-01 and WEB-02 (i.e, via SFTP).
+3. Configured nginx to serve the application. 
 
 ### Configuring the Load Balancer  
-1. Deploy the application on two web servers (e.g., `server1` and `server2`).  
-2. Set up a load balancer (e.g., AWS Elastic Load Balancer or NGINX) to distribute traffic between the two servers.  
+1. Deployed the application on the two web servers (e.g., `WEB-01` and `WEB-02`).  
+2. Set up the load balancer using `HAPROXY`  to distribute traffic between the two servers.  
 3. Configuration steps:  
-   - Register the two web servers (`server1` and `server2`) as target instances.  
-   - Use health checks to ensure the servers are operational.  
-   - Set the algorithm to Round Robin (or another appropriate method).  
-
+   - Registered the two web servers (`WEB-01` and `WEB-02`) as target instances.
+     
 ### Testing the Load Balancer  
-1. Verify the application is accessible via the load balancer’s public IP or domain.  
-2. Simulate multiple users accessing the application and confirm traffic is balanced.  
+1. Verified the application is accessible via the load balancer’s public IP and domain.  
+2. Simulated multiple users accessing the application and confirm traffic is balanced.  
 3. Test failover by shutting down one server and verifying that the other handles the requests seamlessly.  
 
 ---
