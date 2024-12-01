@@ -19,7 +19,7 @@ An interactive and visually appealing weather application that fetches and displ
 3. [Deployment Process](#deployment-process)  
 4. [Load Balancer Configuration](#load-balancer-configuration)  
 5. [Challenges & Solutions](#challenges-and-solutions)
-6. .[Video Link](#Video-Link).
+6. [Demo video Link](#Video-Link)
 7. [Credits & Resources](#credits-and-resources)  
 
 ---
@@ -101,7 +101,7 @@ An interactive and visually appealing weather application that fetches and displ
 
 Below is the link to the demo video!!
 
-[Youtube Video Link](https://youtu.be/5Qj8a8PVvjk?si=ndweaE-Nyy9X41J8)
+[Demo Video Link](https://youtu.be/5Qj8a8PVvjk?si=ndweaE-Nyy9X41J8)
 
 
 ---
