@@ -18,8 +18,9 @@ An interactive and visually appealing weather application that fetches and displ
 2. [API Details](#api-details)  
 3. [Deployment Process](#deployment-process)  
 4. [Load Balancer Configuration](#load-balancer-configuration)  
-5. [Challenges & Solutions](#challenges-and-solutions)  
-6. [Credits & Resources](#credits-and-resources)  
+5. [Challenges & Solutions](#challenges-and-solutions)
+6. .[Video Link](#Video-Link).
+7. [Credits & Resources](#credits-and-resources)  
 
 ---
 
@@ -93,6 +94,15 @@ An interactive and visually appealing weather application that fetches and displ
 3. **Challenge**: Displaying weather icons dynamically.  
    - **Solution**: Created a `weatherIcons` object to map weather codes to emojis.
 4. **Challenge**: The Humidity display option isn't working and I haven't benn able to identify the bug and correct it.
+
+---
+
+## Video Link
+
+Below is the link to the demo video!!
+
+[Youtube Video Link](https://youtu.be/5Qj8a8PVvjk?si=ndweaE-Nyy9X41J8)
+
 
 ---
 
