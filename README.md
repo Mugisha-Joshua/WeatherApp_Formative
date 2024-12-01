@@ -91,7 +91,8 @@ An interactive and visually appealing weather application that fetches and displ
    - **Solution**: Corrected the server health checks and ensured both servers had identical configurations.  
 
 3. **Challenge**: Displaying weather icons dynamically.  
-   - **Solution**: Created a `weatherIcons` object to map weather codes to emojis.  
+   - **Solution**: Created a `weatherIcons` object to map weather codes to emojis.
+4. **Challenge**: The Humidity display option isn't working and I haven't benn able to identify the bug and correct it.
 
 ---
 
